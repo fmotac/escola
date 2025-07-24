@@ -7,7 +7,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-    res.render('index', { title: 'Escola de Programação' });
+    res.render('index', { title: 'Escola de Programação + IA por Flavio Mota' });
 });
 
 app.get('/cursos', (req, res) => {
